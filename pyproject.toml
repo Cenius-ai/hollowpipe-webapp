@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hollowpipe"
+version = "1.0.0"
+description = "Tide gate operation log, sluice angle notes and mud depth readings in one local JSON log."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Hollowpipe crew" }]
+keywords = ["tide-gate", "sluice", "log", "cli"]
+dependencies = []
+
+[project.scripts]
+hollowpipe = "hollowpipe:main"
+
+[tool.setuptools]
+py-modules = ["hollowpipe"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+# The tool supports the Python 3.9 floor declared above, so typing.Dict/Optional
+# stay (they are valid on 3.9 even with PEP 604/585 available on newer runs).
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py311"]

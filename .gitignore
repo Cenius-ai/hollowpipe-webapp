@@ -1,0 +1,22 @@
+# The keeper's own shift log - local data, never committed.
+hollowpipe_log.json
+hollowpipe_log.json.*.tmp
+
+# Demo scratch directory built by demo.sh
+.demo-run/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and editor noise
+.env
+.DS_Store
+.ruff_cache/

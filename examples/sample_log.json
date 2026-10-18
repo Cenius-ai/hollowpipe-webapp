@@ -1,0 +1,80 @@
+[
+  {
+    "id": "6f0b1d2c8a4e4f3b9c7d51a2e8b40c31",
+    "type": "gate",
+    "timestamp": "2025-07-12T05:40:12Z",
+    "gate": "North",
+    "action": "closed",
+    "operator": "AB",
+    "note": "driftwood cleared from the sill before the flood"
+  },
+  {
+    "id": "9a2c4e6f8b0d4a1c8e3f5b7d9c1a2e40",
+    "type": "gate",
+    "timestamp": "2025-07-12T06:05:48Z",
+    "gate": "South",
+    "action": "open",
+    "operator": "AB",
+    "note": "spring tide, 3.1 m on the gauge"
+  },
+  {
+    "id": "1c3e5f7a9b2d4c6e8f0a1b3c5d7e9f21",
+    "type": "sluice",
+    "timestamp": "2025-07-12T06:22:03Z",
+    "angle_deg": 62,
+    "note": "draining the inner basin, level dropping"
+  },
+  {
+    "id": "2d4f6a8c0e1b3d5f7a9c2e4b6d8f0a32",
+    "type": "mud",
+    "timestamp": "2025-07-12T06:48:37Z",
+    "depth_cm": 12.5,
+    "note": "upstream sill, 40 cm rod, soft silt"
+  },
+  {
+    "id": "3e5a7b9d1f2c4e6a8b0d3f5a7c9e1b43",
+    "type": "gate",
+    "timestamp": "2025-07-12T07:15:29Z",
+    "gate": "East",
+    "action": "closed",
+    "operator": "RK",
+    "note": "watch change, RK takes the gate log"
+  },
+  {
+    "id": "4f6b8c0e2a3d5f7b9c1e4a6b8d0f2c54",
+    "type": "sluice",
+    "timestamp": "2025-07-12T07:41:55Z",
+    "angle_deg": 42,
+    "note": "half gate, ebb running, no haulage due"
+  },
+  {
+    "id": "5a7c9d1f3b4e6a8c0d2f5b7a9c1e3d65",
+    "type": "mud",
+    "timestamp": "2025-07-12T08:10:18Z",
+    "depth_cm": 34,
+    "note": "after the neap, silt settled over the gate cill"
+  },
+  {
+    "id": "6b8d0e2a4c5f7b9d1e3a6c8b0d2f4e76",
+    "type": "sluice",
+    "timestamp": "2025-07-12T09:02:44Z",
+    "angle_deg": 0,
+    "note": "sluice shut for the flood, all paddles down"
+  },
+  {
+    "id": "7c9e1f3b5d6a8c0e2f4b7d9c1e3a5f87",
+    "type": "mud",
+    "timestamp": "2025-07-12T09:35:06Z",
+    "depth_cm": 8.25,
+    "note": "sounding rod on the outer face, 8 cm and dropping"
+  },
+  {
+    "id": "8d0f2a4c6e7b9d1f3a5c8e0d2f4b6a98",
+    "type": "gate",
+    "timestamp": "2025-07-12T11:20:31Z",
+    "gate": "North",
+    "action": "open",
+    "operator": "RK",
+    "note": "handover to the night watch, both gates free"
+  }
+]
